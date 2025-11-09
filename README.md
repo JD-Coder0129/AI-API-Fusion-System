@@ -486,7 +486,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Created with ❤️ by **Your Name**
 
 - GitHub: [@JD-Coder0129](https://github.com/JD-Coder0129)
-- Email: your.email@example.com
+- Instagram: [@jaycoder13(https://www.instagram.com/jaycoder13)]
 
 ---
 
