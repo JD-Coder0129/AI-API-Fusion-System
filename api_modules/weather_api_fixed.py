@@ -1,9 +1,9 @@
 import os
 import requests
 
-def get_weather(city: str, api_key = "98f5c2d24848471adb878b2bc492036e") -> str:
+def get_weather(city: str, api_key = "WEATHER_API_KEY") -> str:
     if api_key is None:
-        api_key = os.getenv("98f5c2d24848471adb878b2bc492036e")
+        api_key = os.getenv("WEATHER_API_KEY")
     if not api_key:
         return "OpenWeather API key not provided. Set OPENWEATHER_API_KEY environment variable or pass api_key parameter."
 
