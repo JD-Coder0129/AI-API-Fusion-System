@@ -2,9 +2,9 @@ import os
 import requests
 from requests.exceptions import RequestException
 
-def get_news(api_key="b10c961d5f5b4803b18d200305656308", country="us", category="technology", limit=5):
+def get_news(api_key="NEWS_API_KEY", country="us", category="technology", limit=5):
     if api_key is None:
-        api_key = os.getenv("NEWSAPI_KEY")
+        api_key = os.getenv("NEWS_API_KEY")
     if not api_key:
         return ["⚠️ News API key is required. Get free key from: https://newsapi.org"]
 
